@@ -1,0 +1,63 @@
+/*===== Custom Scrollbar =====*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 10px;
+}
+
+/*===== Background =====*/
+.home {
+    height: 100vh;
+    background: url('../bg/home.jpg');
+    background-size: cover;
+}
+
+.kpop{
+    height: auto;
+    background: url('../bg/kpop.png');
+    background-size: cover; 
+}
+
+.jpop{
+    height: auto;
+    background: url('../bg/jpop.jpg');
+    background-size: cover; 
+}
+
+/*===== Main =====*/
+.intro {
+    height: 390px;
+    justify-content: end;
+    align-items: end;
+    display: flex;
+}
+
+.kpop, .jpop {
+    padding: 60px 0;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-shadow: 2px 3px #000;
+}
+
+.card {
+    height: auto;
+    background-color: #000;
+    margin: 5px;
+    padding: 5px;
+}
+
+.images {
+    width: 400px;
+}
